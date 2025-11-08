@@ -8,3 +8,12 @@ sources:
             description: One record per customer.
           - name: orders
             description: One record per order. Includes cancelled and deleted orders.
+    - name: raw_thryve
+      database: raw
+      schema: raw_thryve
+      tables:
+         -  name: member_enrollment
+         -  name: facility
+         -  name: claim_header
+         -  name: claim_line
+         -  name: provider
