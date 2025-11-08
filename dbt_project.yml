@@ -69,9 +69,5 @@ models:
       +database: ANALYTICS                # snowflake DB for analytics layer
       +schema: DBT_ANALYTICS              # schema dbt will create
       +materialized: table
-    # Production Analytics
-    Prod Analytics:
-      +database: PRODANALYTICS
-      +schema: DBT
-      +materialized: table
+    
 
